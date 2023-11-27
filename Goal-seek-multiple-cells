@@ -1,0 +1,109 @@
+Sub Gseek_multi1()
+Dim InputRng As Range, SetVal As Range, OutputRng As Range
+Dim p As Long
+With Application
+Set InputRng = .InputBox(Title:="Select a Desired Range", _
+prompt:="Select desired range containing ""Set Value"" in cells", Default:=Range("O6:O196").Address, Type:=8)
+Set SetVal = .InputBox(Title:="Select a Desired Range", _
+prompt:="Select desired range containing ""Set Value"" change into", Default:=Range("G6:G196").Address, Type:=8)
+Set OutputRng = .InputBox(Title:="Select a Desired Range", _
+prompt:="Select desired range you want the values to be changed", Default:=Range("I6:I196").Address, Type:=8)
+End With
+For p = 1 To InputRng.Rows.Count
+InputRng.Cells(p).GoalSeek Goal:=SetVal.Cells(p).Value, ChangingCell:=OutputRng.Cells(p)
+Next p
+End Sub
+
+Sub Gseek_multi2()
+Dim InputRng As Range, SetVal As Range, OutputRng As Range
+Dim p As Long
+With Application
+Set InputRng = .InputBox(Title:="Select a Desired Range", _
+prompt:="Select desired range containing ""Set Value"" in cells", Default:=Range("O204:O394").Address, Type:=8)
+Set SetVal = .InputBox(Title:="Select a Desired Range", _
+prompt:="Select desired range containing ""Set Value"" change into", Default:=Range("G204:G394").Address, Type:=8)
+Set OutputRng = .InputBox(Title:="Select a Desired Range", _
+prompt:="Select desired range you want the values to be changed", Default:=Range("I204:I394").Address, Type:=8)
+End With
+For p = 1 To InputRng.Rows.Count
+InputRng.Cells(p).GoalSeek Goal:=SetVal.Cells(p).Value, ChangingCell:=OutputRng.Cells(p)
+Next p
+End Sub
+
+Sub Gseek_multi3()
+Dim InputRng As Range, SetVal As Range, OutputRng As Range
+Dim p As Long
+With Application
+Set InputRng = .InputBox(Title:="Select a Desired Range", _
+prompt:="Select desired range containing ""Set Value"" in cells", Default:=Range("O401:O591").Address, Type:=8)
+Set SetVal = .InputBox(Title:="Select a Desired Range", _
+prompt:="Select desired range containing ""Set Value"" change into", Default:=Range("G401:G591").Address, Type:=8)
+Set OutputRng = .InputBox(Title:="Select a Desired Range", _
+prompt:="Select desired range you want the values to be changed", Default:=Range("I401:I591").Address, Type:=8)
+End With
+For p = 1 To InputRng.Rows.Count
+InputRng.Cells(p).GoalSeek Goal:=SetVal.Cells(p).Value, ChangingCell:=OutputRng.Cells(p)
+Next p
+End Sub
+Sub Gseek_multi4()
+Dim InputRng As Range, SetVal As Range, OutputRng As Range
+Dim p As Long
+With Application
+Set InputRng = .InputBox(Title:="Select a Desired Range", _
+prompt:="Select desired range containing ""Set Value"" in cells", Default:=Range("O597:O787").Address, Type:=8)
+Set SetVal = .InputBox(Title:="Select a Desired Range", _
+prompt:="Select desired range containing ""Set Value"" change into", Default:=Range("G597:G787").Address, Type:=8)
+Set OutputRng = .InputBox(Title:="Select a Desired Range", _
+prompt:="Select desired range you want the values to be changed", Default:=Range("I597:I787").Address, Type:=8)
+End With
+For p = 1 To InputRng.Rows.Count
+InputRng.Cells(p).GoalSeek Goal:=SetVal.Cells(p).Value, ChangingCell:=OutputRng.Cells(p)
+Next p
+End Sub
+Sub Gseek_multi5()
+Dim InputRng As Range, SetVal As Range, OutputRng As Range
+Dim p As Long
+With Application
+Set InputRng = .InputBox(Title:="Select a Desired Range", _
+prompt:="Select desired range containing ""Set Value"" in cells", Default:=Range("O794:O984").Address, Type:=8)
+Set SetVal = .InputBox(Title:="Select a Desired Range", _
+prompt:="Select desired range containing ""Set Value"" change into", Default:=Range("G794:G984").Address, Type:=8)
+Set OutputRng = .InputBox(Title:="Select a Desired Range", _
+prompt:="Select desired range you want the values to be changed", Default:=Range("I794:I984").Address, Type:=8)
+End With
+For p = 1 To InputRng.Rows.Count
+InputRng.Cells(p).GoalSeek Goal:=SetVal.Cells(p).Value, ChangingCell:=OutputRng.Cells(p)
+Next p
+End Sub
+
+Sub Gseek_multi6()
+Dim InputRng As Range, SetVal As Range, OutputRng As Range
+Dim p As Long
+With Application
+Set InputRng = .InputBox(Title:="Select a Desired Range", _
+prompt:="Select desired range containing ""Set Value"" in cells", Default:=Range("O991:O1181").Address, Type:=8)
+Set SetVal = .InputBox(Title:="Select a Desired Range", _
+prompt:="Select desired range containing ""Set Value"" change into", Default:=Range("G991:G1181").Address, Type:=8)
+Set OutputRng = .InputBox(Title:="Select a Desired Range", _
+prompt:="Select desired range you want the values to be changed", Default:=Range("I991:I1181").Address, Type:=8)
+End With
+For p = 1 To InputRng.Rows.Count
+InputRng.Cells(p).GoalSeek Goal:=SetVal.Cells(p).Value, ChangingCell:=OutputRng.Cells(p)
+Next p
+End Sub
+
+Sub Gseek_multi7()
+Dim InputRng As Range, SetVal As Range, OutputRng As Range
+Dim p As Long
+With Application
+Set InputRng = .InputBox(Title:="Select a Desired Range", _
+prompt:="Select desired range containing ""Set Value"" in cells", Default:=Range("O1188:O1378").Address, Type:=8)
+Set SetVal = .InputBox(Title:="Select a Desired Range", _
+prompt:="Select desired range containing ""Set Value"" change into", Default:=Range("G1188:G1378").Address, Type:=8)
+Set OutputRng = .InputBox(Title:="Select a Desired Range", _
+prompt:="Select desired range you want the values to be changed", Default:=Range("I1188:I1378").Address, Type:=8)
+End With
+For p = 1 To InputRng.Rows.Count
+InputRng.Cells(p).GoalSeek Goal:=SetVal.Cells(p).Value, ChangingCell:=OutputRng.Cells(p)
+Next p
+End Sub
